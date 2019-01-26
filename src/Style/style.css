@@ -1,0 +1,249 @@
+/* main game area style */
+
+
+.main_div {
+	text-align: right;
+	color: Black;
+}
+
+
+.card {
+	height:33%;
+	width: 25%;
+    float: left;
+}
+.gameButton {
+	position:absolute;
+	bottom: 15%;
+	width: 10%;
+}
+.user {
+    z-index: 100;
+    position: absolute;
+    width: 25%;
+    height: 15%;
+    border: solid 1px black;
+}
+
+#user {
+    top: 30%;
+    left: 37%;
+    width: 30%;
+    height:40%;
+
+}
+#p2 {
+    top: 20%;
+    left:10%;
+}
+#p3 {
+    top:40%;
+    left:10%;
+}
+#p4 {
+    top: 25%;
+    right: 5%;
+}
+#dealer {
+    top: 5%;
+    left: 40%;
+    height: 25%;
+
+}
+
+#b1 {
+	left: 25%;
+}
+#b2 {
+	left: 35%;
+}
+#b3 {
+	left: 45%;
+}
+#b4 {
+	left: 55%;
+}
+	
+#board {
+z-index: -1;
+width:100%;
+height: 75%;
+
+}
+
+/* menu style */
+
+#menu{
+	width:28%;
+	height: 100%;
+	position:fixed;
+	bottom: 0;
+	right:5%;
+
+	border: 4px solid #000000;
+}
+
+/* title style */
+#Title{
+	position:absolute;
+	top: 15%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	width: 35%;
+	height: 30%;
+
+}
+
+/* used in login.dart*/
+#Username{
+	position:absolute;
+	top: 37%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	width: 25%;
+	background-color: purple;
+	text-align:center;
+
+
+
+}
+#Password{
+	position:absolute;
+	top: 44%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	width: 25%;
+	background-color: purple;
+	text-align:center;
+}
+#Submit{
+	position: absolute;
+	top: 50%;
+	width: 10%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+
+}
+#Register{
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+
+
+/*used in banner*/
+#Banner {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 66%;
+	height: 20%;
+	border: 3px solid #000000;
+
+}
+#TitleText {
+	position: absolute;
+	top: 25%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	font-size: 300%
+
+}
+#main{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	top:20%;
+	width: 66%;
+	height: 80%;
+	border: 3px solid #000000;
+}
+#gamePlaceholder {
+	position: absolute;
+	width: 50%;
+	top:50%;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+	border: 1px solid #4286f4;
+	background-color: #4842f4;
+	text-align: center;
+	height: 10%;
+
+}
+
+.chatBox {
+
+}
+
+/*used in sidebar */
+#toolbar {
+	position:fixed;
+    left:95%;
+    top:0;
+    width:5%;
+
+}
+.tButton {
+    width:100%;
+    height: 10%;
+    position:relative;
+}
+
+
+/* used in home.dart*/
+#profile {
+    height:25%;
+	width:50%;
+    left:25%;
+    position:absolute;
+}
+#homeStats{
+    position:absolute;
+    top: 44%;
+}
+#homeWelcome {
+    position:absolute;
+    top: 33%;
+
+}
+
+/* used in chatRender.dart*/
+
+#messageWindow {
+    position:absolute;
+    left:0;
+    top:0;
+    width: 100%;
+    height:90%;
+    overflow-y: auto;
+}
+
+#inputMessage {
+    position:absolute;
+	left:0;
+    bottom:0;
+    width: 90%;
+    height:10%;
+}
+#submitMessage {
+    bottom:0;
+    position:absolute;
+    width: 10%;
+    right:0;
+    height:10%;
+    text-align: left;
+}
+
+#message {
+    position:relative;
+    left: 0;
+    float:bottom;
+}
